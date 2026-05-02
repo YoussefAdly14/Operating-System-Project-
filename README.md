@@ -18,7 +18,7 @@ A fully simulated OS kernel built in **C**, modeling real operating system behav
 │               │   blocked→term)     │                       │
 ├───────────────┴─────────────────────┴───────────────────────┤
 │                      Scheduler                              │
-│         RR  |  HRRN  |  MLFQ (4 priority queues)           │
+│         RR  |  HRRN  |  MLFQ (4 priority queues)            │
 ├─────────────────────────────────────────────────────────────┤
 │                    Mutex Manager                            │
 │     userInput  |  userOutput  |  file  → blocked queue      │
